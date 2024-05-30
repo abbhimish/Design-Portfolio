@@ -1,0 +1,453 @@
+@font-face {
+    font-family: 'National';
+    src: url('/assets/fonts/subset-National-Black.woff2') format('woff2'),
+        url('/assets/fonts/subset-National-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'America';
+    src: url('/assets/fonts/subset-GTAmericaMonoTrial-Rg.woff2') format('woff2'),
+        url('/assets/fonts/subset-GTAmericaMonoTrial-Rg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+}
+body {
+    background-color: #363636;
+}
+
+h2{
+    color: aliceblue;
+}
+
+a.link{
+    color: white;
+}
+
+
+.a {
+    display: flex;
+    height: 66px;
+    padding: 10px;
+    transition: background-color 0.10s ease, color 0.3s ease, transform 0.3s
+}
+
+
+a:hover{
+    color: #f2ff00;
+}
+
+.top-left {
+    height: 66px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2D2D2D;
+    border-radius: 10px;
+    font-family: "National";
+    font-size: 30px;
+    color: white;
+}
+
+.top-right {
+    display: flex;
+    height: 66px;
+    width: 100%;
+    background-color: #2D2D2D;
+    border-radius: 10px;
+    margin-left: 10px;
+    align-items: center;
+    justify-content: space-around;
+    font-family: "America";
+    font-size: 12px;
+    color: white;
+}
+
+
+.button {
+    background-color: #696969;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+
+.button:hover{
+    color: black;
+    background-color: #f2ff00 ;
+    transform: scale(1.1);
+}
+
+
+/*------------------B BLOCK STARTS---------------*/
+.b {
+    display: flex;
+    height: 650px;
+    padding: 0px 0px 0px 10px;
+}
+
+.second-left {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.second-right{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.second-left-top{
+    background-color: #2D2D2D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.second-left-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    height: 50%;
+    width: 100%;
+}
+
+.icons{
+    height: 82%;
+    width: 40%;
+    background-color: #2D2D2D;
+    border-radius: 10px;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-text{
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #2D2D2D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.icon-title{
+    font-family: "National";
+    font-size: 25px;
+    color: white;
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.icon-content{
+    font-family: "DM Sans";
+    font-size: 12px;
+    color: white;
+    margin-left: 30px;
+}
+
+.second-right-top {
+    background-color: #2D2D2D;
+    display: flex;
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.second-right-bottom{
+    background-color: #2D2D2D;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.second-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.second-right-top-title{
+    font-family: "National";
+    margin: 30px;
+    color: white;
+    font-size: 40px;
+}
+
+.second-right-top-text{
+    font-family: "DM Sans";
+    font-size: 12px;
+    color: white;
+    width: 350px;
+    height: auto;
+    margin-left: 30px;
+}
+
+.second-right-bottom-title{
+    font-family: "National";
+    font-size: 25px;
+    margin-bottom: 30px ;
+    color: white;
+}
+
+.second-right-bottom-content{
+    font-family: "DM Sans";
+    font-size: 12px;
+    color: white;
+    width: 350px;
+    height: auto;
+}
+.poster{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/*------------------B BLOCK ENDS---------------*/
+
+/*------------------C BLOCK STARTS---------------*/
+.c {
+    display: flex;
+    height: 600px;
+    padding: 10px;
+}
+
+.third-left {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-left-top{
+    margin-bottom: 10px;
+    height: 50%;
+    width: 100%;
+    background-color: #2D2D2D;
+    border-radius: 10px;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-left-top-content, .third-left-bottom-content{
+    width: 50%;
+}
+
+.third-left-bottom{
+    height: 50%;
+    width: 100%;
+    background-color: #2D2D2D;
+    border-radius: 10px;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-left-bottom-title, .third-left-top-title{
+    font-family: "National";
+    font-size: 25px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.third-left-bottom-text, .third-left-top-text{
+    font-family: "DM Sans";
+    font-size: 12px;
+    color: white;
+}
+
+.third-right {
+    height: 100%;
+    width: 50%;
+    background-color: #2D2D2D;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-family: "Poetsen One", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(191, 255, 0);
+}
+
+/*-------------------C BLOCK ENDS---------------*/
+
+/*------------------D BLOCK STARTS---------------*/
+.d {
+    display: flex;
+    height: 700px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.d-left{
+    margin-bottom: 10px;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.d-left-top{
+    height: 50%;
+    width: 100%;
+    background-color: #2D2D2D;
+    border-radius: 10px;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-top-title, .d-bottom-title{
+    font-family: "National";
+    font-size: 25px;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.d-bottom-text, .d-top-text{
+    font-family: "DM Sans";
+    font-size: 12px;
+    color: white;
+}
+
+.d-content{
+    width: 70%;
+}
+
+.d-left-bottom{
+    margin-top: 10px;
+    height: 50%;
+    width: 100%;
+    background-color: #2D2D2D;
+    border-radius: 10px;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.d-right{
+    margin-left: 10px;
+    height: 100%;
+    width: 60%;
+    background-color: #2D2D2D;
+    border-radius: 10px;
+    font-family: "Poetsen One", sans-serif;
+    font-size: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.posters-top, .posters-bottom{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.poster{
+    margin: 10px;
+}
+
+
+
+/*-------------------D BLOCK ENDS---------------*/
+
+/*--------------------H BLOCK------------------*/
+.h {
+    height: 188px;
+    background-color: #2D2D2D;
+    border-radius: 10px;
+    margin: 10px 10px 10px 10px;
+    font-family: "Poetsen One", sans-serif;
+    color: white;
+}
+
+
+.header-title{
+    padding: 20px;
+    font-family: "National";
+    color: white;
+    font-size: 25px ;
+}
+
+.header-content{
+    padding: 20px;
+    font-family: "America";
+    color: white;
+    font-size: 12px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-details{
+    margin: 50;
+    display: flex;
+    flex-direction: row;
+    align-items: center ;
+    justify-content: space-between;
+}
+
+
+.icons{
+    width: fit-content;
+    display: flex;    
+    flex-direction: row;
+    padding: 30px;
+}
+
+
+/*------------H BLOCK ENDS------------------*/
