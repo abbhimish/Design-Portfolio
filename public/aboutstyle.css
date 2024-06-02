@@ -138,10 +138,10 @@ a{
     height: auto;
 }
 
-/*------------------B BLOCK ENDS---------------*/
+/*-------------------------B BLOCK ENDS-------------------*/
 
 
-/*-----------C BLOCK----------------*/
+/*---------------------------C BLOCK------------------------*/
 .c {
     display: flex;
     height: 300px;
@@ -180,6 +180,30 @@ a{
     color: white;
 }
 
+.third-right-image{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    transition: scale 0.9s;
+}
+
+.image{
+    width: 40%;
+    height: auto;
+}
+
+.third-right-text{
+    position: absolute;
+    top: 40%;
+    left: 42%;
+    color: #4a4a4a;
+}
+
+.third-right-image:hover{
+    scale: 1.05;
+}
+
+
 /*------------C BLOC ENDS--------------*/
 
 /*------------D BLOCK------------------*/
@@ -208,7 +232,7 @@ a{
 }
 
 .volunteering-content, .experience-content{
-    width: 80%;
+    width: 60%;
     font-size: 14px;
     font-family: "DM Sans";
     color: white;

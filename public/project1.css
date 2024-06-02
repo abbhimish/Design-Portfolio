@@ -169,7 +169,14 @@ a:hover{
     font-family: "DM Sans";
     font-size: 12px;
     color: white;
-    margin-left: 30px;
+    margin-left: 60px;
+}
+
+/*
+    UxW About Client box
+ */
+.icon-content.UwH{
+    width: 25rem;
 }
 
 .second-right-top {
@@ -192,6 +199,7 @@ a:hover{
 }
 
 .second-content{
+    margin-left: 40px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -210,9 +218,9 @@ a:hover{
     font-family: "DM Sans";
     font-size: 12px;
     color: white;
-    width: 350px;
+    width: 57%;
     height: auto;
-    margin-left: 30px;
+    margin-left: 90px;
 }
 
 .second-right-bottom-title{
@@ -223,12 +231,21 @@ a:hover{
 }
 
 .second-right-bottom-content{
+    margin-left: 30px;
     font-family: "DM Sans";
     font-size: 12px;
     color: white;
-    width: 350px;
+    width: 20rem;
     height: auto;
 }
+
+/*
+    UxW Project Design framing width
+*/
+.second-right-bottom-content.UxW{
+    width: 25rem;
+}
+
 .poster{
     margin-top: 10px;
     margin-bottom: 10px;
@@ -289,13 +306,26 @@ a:hover{
     font-family: "National";
     font-size: 25px;
     color: white;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .third-left-bottom-text, .third-left-top-text{
     font-family: "DM Sans";
     font-size: 12px;
     color: white;
+    margin-left: 40px;
+}
+
+/*
+    UxW Project Design Process Text
+*/
+.third-left-top-text.UxW{
+    margin-left: 0px;
+    width: 28rem;
+}
+
+.third-left-bottom-text{
+    margin-left: 0px;
 }
 
 .third-right {
@@ -354,7 +384,18 @@ a:hover{
     font-family: "DM Sans";
     font-size: 12px;
     color: white;
+    
 }
+
+.d-bottom-text{
+    margin-left: 30px;
+}
+
+.d-top-text.UXI{
+    margin-left: 30px;
+}
+
+
 
 .d-content{
     width: 70%;
@@ -395,6 +436,14 @@ a:hover{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+/*
+    Posters of UX Was Here arrangement
+*/
+
+.posters-top.UxW{
+    justify-content: space-evenly;
 }
 
 .poster{
