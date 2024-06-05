@@ -29,18 +29,20 @@ h2{
 
 a{
     color: white;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: #f2ff00;
 }
 
 .a {
     display: flex;
     height: 66px;
     padding: 10px;
-    transition: background-color 0.10s ease, color 0.3s ease, transform 0.3s
+    
 }
 
-a:hover{
-    color: #f2ff00;
-}
 
 .top-left {
     height: 66px;
@@ -73,7 +75,7 @@ a:hover{
 .button {
     background-color: #696969;
     border: none;
-    color: rgb(255, 255, 255);
+    color: #2D2D2D;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;

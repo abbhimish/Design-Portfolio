@@ -25,8 +25,11 @@ body {
 
 a{
     color: white;
-    font-family: "America";
-    font-size: 12px;
+    transition: color 0.3s ease;
+}
+
+a:hover{
+    color: #f2ff00;
 }
 
 /*--------------------------A BLOCK STARTS-----------------------------*/
@@ -45,8 +48,8 @@ a{
     align-items: center;
     background-color: #2D2D2D;
     border-radius: 10px;
-    font-family: "national";
-    font-size: 40px;
+    font-family: "National";
+    font-size: 30px;
     color: white;
 }
 
@@ -59,15 +62,15 @@ a{
     margin-left: 10px;
     align-items: center;
     justify-content: space-around;
-    font-family: "Poetsen One", sans-serif;
-    font-size: 15px;
+    font-family: "America";
+    font-size: 12px;
     color: white;
 }
 
 .button {
     background-color: #696969;
     border: none;
-    color: rgb(255, 255, 255);
+    color: black;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -75,9 +78,15 @@ a{
     margin: 4px 2px;
     cursor: pointer;
     border-radius: 16px;
-    font-family: "America";
-    font-size: 12px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
 }
+
+.button:hover{
+    color: black;
+    background-color: #f2ff00 ;
+    transform: scale(1.1);
+}
+
 /*--------------------------A BLOCK ENDS-----------------------------*/
 
 /*------------------B BLOCK STARTS---------------*/
@@ -239,7 +248,7 @@ a{
     margin-top: 40px;
 }
 
-a, .same-format{
+a .same-format{
     font-size: 14px;
     font-family: "DM Sans";
     color: white;
